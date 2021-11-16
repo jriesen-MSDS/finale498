@@ -1,6 +1,9 @@
-Flask
+flask
 pandas
 numpy
 boto3
 tabulate
 gensim
+pylint
+pytest
+black
