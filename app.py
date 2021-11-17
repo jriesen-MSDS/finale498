@@ -13,7 +13,7 @@ LOG.setLevel(logging.INFO)
 
 @app.route("/")
 def home():
-    html = f"<h3>This is for Jena to make pretty</h3>"
+    html = f"<h3>For MSDS 498</h3>"
     return html.format(format)
 
 @app.route('/hi/<name>')
